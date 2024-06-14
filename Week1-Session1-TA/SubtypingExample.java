@@ -12,7 +12,6 @@ class Dog extends Animal {
 
 public class SubtypingExample {
     public static void main(String[] args) {
-        Animal myDog = new Dog(); // Subtyping
-        myDog.makeSound(); // Outputs "Woof"
+        
     }
 }

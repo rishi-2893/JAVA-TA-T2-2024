@@ -1,6 +1,11 @@
 class Animal {
+    int[] animals;
     void eat() {
         System.out.println("Animal is eating");
+    }
+
+    void removeAnimal(String animalName){
+        // Removing animalName from list of animals
     }
 }
 
@@ -12,8 +17,7 @@ class Dog extends Animal {
 
 public class InheritanceExample {
     public static void main(String[] args) {
-        Dog myDog = new Dog();
-        myDog.eat(); // Inherited method
-        myDog.bark(); // Method of subclass
+        Animal animalObject = new Animal();
+        animalObject.removeAnimal("Tiger");
     }
 }
