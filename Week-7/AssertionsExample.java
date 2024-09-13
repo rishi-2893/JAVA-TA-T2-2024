@@ -11,4 +11,3 @@ public class AssertionsExample {
         assert number > 0 : "Number should be positive"; // This will trigger an assertion error
     }
 }
-// com/example/mypackage/

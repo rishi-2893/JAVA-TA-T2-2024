@@ -1,4 +1,3 @@
-// Polymorphic Data Structures Example
 import java.util.ArrayList;
 import java.util.List;
 

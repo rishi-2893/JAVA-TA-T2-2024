@@ -1,7 +1,10 @@
-// Abstract Classes Example
 abstract class Animal {
+    // I want that every child class should provide a concrete
+    // implementation of the makeSound() method
     abstract void makeSound();
 
+    // In the abstract class you can also write a method with
+    // concrete implementation
     void sleep() {
         System.out.println("Animal is sleeping");
     }
@@ -9,6 +12,7 @@ abstract class Animal {
 
 class Dog extends Animal {
     void makeSound() {
+        // This is implementation
         System.out.println("Woof");
     }
 }

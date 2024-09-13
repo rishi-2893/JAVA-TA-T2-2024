@@ -4,6 +4,7 @@ import java.util.List;
 
 // Generic Method
 public class GenericsExample {
+    int age;
     public static <T> void printList(List<T> list) {
         for (T elem : list) {
             System.out.println(elem);

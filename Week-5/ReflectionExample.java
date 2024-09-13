@@ -1,5 +1,5 @@
 // Reflection Example
-import java.lang.reflect.Method;
+import java.lang.reflect.*;
 
 class SampleClass {
     public void sampleMethod() {

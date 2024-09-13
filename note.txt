@@ -1,1 +1,5 @@
-Start from W4, W3 was finished in the last session
+cREATE EXAMPLE ON THE BELOW CONCEPTS
+- **Signal and exit** — notifying process immediately exits the monitor
+    - `notify()` must be the last instruction as after `notify()` it immediately exits `transfer`
+- **Signal and wait** — notifying process swaps roles and goes into the internal queue of the monitor
+- **Signal and continue** — notifying process keeps control till it completes then one of the notified processes steps in

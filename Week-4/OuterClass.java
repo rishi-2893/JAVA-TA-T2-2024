@@ -1,4 +1,3 @@
-// Private Classes Example
 public class OuterClass {
     private String outerField = "Outer field";
 
